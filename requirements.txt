@@ -1,5 +1,5 @@
 matplotlib
-pandas
 seaborn
+pandas
 scikit-learn
 
