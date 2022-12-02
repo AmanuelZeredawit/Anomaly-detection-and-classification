@@ -108,9 +108,8 @@ Becode coaches
 ArcelorMittal
 * Thomas
 
+<img src="https://becode.org/app/uploads/2021/06/logo-becode.pn" width="50" />
 
-![ Becode logo](https://becode.org/app/uploads/2021/06/logo-becode.png)
-Ghent Becode: December 2022
 
 
 
