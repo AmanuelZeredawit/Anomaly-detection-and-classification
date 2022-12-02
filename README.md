@@ -20,9 +20,10 @@ number of data points in which the difference is greater or equal to 5.
 Our algorithm detects a coil as constriction if the count is greater than or 
 equal to 6, not constriction if the count is 0, and 'not sure if the count is 
 between 0 to 6.
-images/constriction/283981.png
 
-![B3, B4, B5 measurement plot ]images/constriction/283981.png)
+
+![B3, B4, B5 measurement plot ](images/constriction/283981.png)
+
 
 So for analysis and modeling, we only use coils that are determined either as constriction or not. 
 
