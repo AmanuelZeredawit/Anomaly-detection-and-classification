@@ -1,10 +1,12 @@
 # Arcelo_mittal
 
 ### General description
+ 
+This project is developed for [ArcelorMittal](https://en.wikipedia.org/wiki/ArcelorMittal), an international steel manufacturer. ArcelorMittal is the second-largest steel producer in the world, with an annual 
+crude steel production of 88 million metric tonnes as of 2022.
 
-This project is developed for Arcelor Mittal, a company based in Belgium.
-In this project, an algorithm is developed to determine whether there is 
-a constriction or not on a steel coil based on B3, B4, and B5 measurements.
+In this project, an algorithm is developed for the client to determine whether 
+there is a constriction or not on a steel coil based on B3, B4, and B5 measurements. 
 Then a model is developed to predict constriction.
 
 ### Algorithm for detection Correlation
@@ -41,7 +43,7 @@ Result of our algorithm for constriction :
 ### Modeling
 
 The dataset we have for modeling is unbalanced (18845, 1725) so we downsample the majority class to develop our models. Different models have been tried and evaluated. The metrics that we use for evaluation are F-score and confusion matrix as the business need of our client is to minimize false negative(FN) and false positive(FP).
-Minimizing FN means minimizing the loss caused by manufacturing coils with constriction. Minimizing FP keeps our client "Arcelor-Mittal" in business by keeping its reputation of manufacturing and supplying constriction-free steel coils. In this project, we use a random forest classifier to predict prediction as FP and FN is lower than in other models.
+Minimizing FN means minimizing the loss caused by manufacturing coils with constriction. Minimizing FP keeps our client "ArcelorMittal" in business by keeping its reputation of manufacturing and supplying constriction-free steel coils. In this project, we use a random forest classifier to predict prediction as FP and FN is lower than in other models.
 
 confusion matrix result on downsampled test data:
 
@@ -58,7 +60,7 @@ allowed.
 
 ### Installation
 
-To deploy and use the project first clone it to your machine.And usethe package manager
+To deploy and use the project first clone it to your machine.And use the package manager
 [pip](https://pip.pypa.io/en/stable/) to install the virtual environment and libraries.
 
 
@@ -103,8 +105,12 @@ Becode coaches
 * Louis
 * Vanessa
 
-Arcelor mittal
+ArcelorMittal
 * Thomas
+
+
+![ Becode logo](https://becode.org/app/uploads/2021/06/logo-becode.png)
+Ghent Becode: December 2022
 
 
 
