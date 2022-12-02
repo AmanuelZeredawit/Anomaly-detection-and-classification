@@ -13,13 +13,16 @@ The measurement taken at B3, B4, and B5 are not taken at the same point, hence
 we don't have the same length in a set of (length, width), which makes it difficult
 to compare the width of B3, B4, and B5. To tackle that we first grouped the dataset
 to the int(length) and aggregated them by getting their average, which makes 
-comparing B3, B4, and B5 measurements easy. Then we get a new measurement B3B4 
+comparing B3, B4, and B5 measurements easier. Then we get a new measurement B3B4 
 which is the mean of B3 and B4. And we take the absolute value of the difference
 between B3B4 and B5 to determine the width difference. Finally, we count the
 number of data points in which the difference is greater or equal to 5.
 Our algorithm detects a coil as constriction if the count is greater than or 
 equal to 6, not constriction if the count is 0, and 'not sure if the count is 
 between 0 to 6.
+images/constriction/283981.png
+
+![B3, B4, B5 measurement plot ]images/constriction/283981.png)
 
 So for analysis and modeling, we only use coils that are determined either as constriction or not. 
 
@@ -48,29 +51,31 @@ confusion matrix result on downsampled test data:
 
 ### Usage
 
-This project is private so using the files without the consent of Arcelor-Mittal company is not
+This project is private and belongs to so using the files without the consent of Arcelor-Mittal company is not
 allowed.
 
 
 ### Installation
 
-To deploy and use the project first clone it and use the deployment
+To deploy and use the project first clone it to your machine.And usethe package manager
+[pip](https://pip.pypa.io/en/stable/) to install the virtual environment and libraries.
+
 
 
 1. Install virtualenv
 
-```
+```bash
 pip install virtualenv
 ```
 2. Create a virtual environment and activate it
-```
+```bash
 virtualenv venv
 > On windows -> venv\Scripts\activate
 > On Linux -> . env/bin/activate
 
 ```
 3. Install the necessary libraries
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -84,7 +89,7 @@ pip install -r requirements.txt
 
 
 
-#### Collaborators
+### Collaborators
 
 Developer Team
 * Olga
