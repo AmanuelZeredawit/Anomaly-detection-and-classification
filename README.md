@@ -98,7 +98,7 @@ Developer Team
 * Olga
 * Shakil
 * Amanuel
-* Data Engineer team
+* Data Engineering team
 
 Becode coaches
 * Chrysanthi
