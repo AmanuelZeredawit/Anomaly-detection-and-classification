@@ -12,7 +12,7 @@ Then a model is developed to predict constriction.
 ![B3, B4, B5 measurement plot ](images/constriction/283981.png)
 
 
-### Algorithm for detection Correlation
+### Algorithm for detection Constriction
 
 The measurement taken at B3, B4, and B5 are not taken at the same point, hence
 we don't have the same length in a set of (length, width), which makes it difficult
