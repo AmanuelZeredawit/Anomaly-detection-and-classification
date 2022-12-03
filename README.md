@@ -75,13 +75,13 @@ confusion matrix result on downsampled test data:
 
 ### Usage
 
-This project is private and belongs to so using the files without the consent of Arcelor-Mittal company is not
-allowed.
+This project is a private property of ArcelorMittal. So using the files without the consent of
+ArcelorMittal is not allowed.
 
 
 ### Installation
 
-To deploy and use the project first clone it to your machine.And use the package manager
+To deploy and use the project first clone it to your machine. And use the package manager
 [pip](https://pip.pypa.io/en/stable/) to install the virtual environment and libraries.
 
 
