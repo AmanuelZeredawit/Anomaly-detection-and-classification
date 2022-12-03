@@ -30,11 +30,11 @@ between 0 to 6.
 ```python
 
 # length cast to int
-# B3,B4,B5 grouped and merged to df
+# B3, B4, and B5 are grouped and merged to form a dataframe df.
 
-df.B3B4_width = mean(df.B3_width , df.B4_width)
+df.B3B4_width = df['B3_width', 'B4_width'].mean()
 df.constriction_width = df.B5_width - df.B3B4_width
-count = (constriction_width > 5)
+count = len(df.constriction_width > 5)
 
 if count > 6:
       constriction
