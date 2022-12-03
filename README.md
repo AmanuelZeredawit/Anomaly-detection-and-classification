@@ -9,6 +9,9 @@ In this project, an algorithm is developed for the client to determine whether
 there is a constriction or not on a steel coil based on B3, B4, and B5 measurements. 
 Then a model is developed to predict constriction.
 
+![B3, B4, B5 measurement plot ](images/constriction/283981.png)
+
+
 ### Algorithm for detection Correlation
 
 The measurement taken at B3, B4, and B5 are not taken at the same point, hence
@@ -24,7 +27,25 @@ equal to 6, not constriction if the count is 0, and 'not sure if the count is
 between 0 to 6.
 
 
-![B3, B4, B5 measurement plot ](images/constriction/283981.png)
+```python
+
+# length cast to int
+# B3,B4,B5 grouped and merged to df
+
+df.B3B4_width = mean(df.B3_width , df.B4_width)
+df.constriction_width = df.B5_width - df.B3B4_width
+count = (constriction_width > 5)
+
+if count > 6:
+      constriction
+elsif count == 0:
+      not constriction
+else:
+      not sure
+
+
+```
+
 
 
 So for analysis and modeling, we only use coils that are determined either as constriction or not. 
