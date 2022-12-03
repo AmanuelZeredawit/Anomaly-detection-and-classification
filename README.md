@@ -111,10 +111,6 @@ ArcelorMittal
 
 
 
-
-
-![Becode logo](images/logo.png)
-
 © 2022 Becode, Ghent.
 
 
