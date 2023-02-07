@@ -9,7 +9,7 @@ In this project, an algorithm is developed for the client to determine whether
 there is a constriction or not on a steel coil based on B3, B4, and B5 measurements. 
 Then a model is developed to predict constriction.
 
-![B3, B4, B5 measurement plot ](images/constriction/283981.png)
+![B3, B4, B5 measurement plot ](images/constriction/283805.png)
 
 
 ### Algorithm for detection Constriction
